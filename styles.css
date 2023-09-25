@@ -1,0 +1,158 @@
+/* Estilos para la barra de navegación */
+.custom-navbar {
+    background: transparent; /* Establece el fondo de la barra de navegación como transparente */
+    border: none; /* Elimina el borde */
+    border-radius: 0; /* Elimina los bordes redondos */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    height: 70px;
+    border-radius: 30px;
+    
+    border-color: none;
+    margin-right: auto;
+    margin-left: auto;
+    transition: top 0.3s; /* Agregamos una transición para suavizar la animación */
+    top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
+}
+
+.custom-navbar .navbar-nav .nav-item {
+    margin-right: 10px; /* Aumenta el margen derecho entre elementos */
+    padding: center;
+}
+
+
+.custom-navbar .navbar-nav .nav-link {
+    background-color: gainsboro;
+    border-color: #6c757d;
+    color: #343a40
+}
+
+.nav-image.custom-navbar {
+    height: 60px; /* Ajusta la altura de la imagen para que coincida con la barra de navegación */
+    margin-top: 0; /* Elimina el margen superior para alinear la imagen con la parte superior de la barra de navegación */
+}
+
+
+.navbar-nav{
+    position: static;
+    }
+    @font-face {
+        font-family: 'MiFuentePersonalizada'; /* Nombre de la fuente que usarás en tu CSS */
+        src: url('font/Recoleta-Bold.woff') format('woff'),
+             url('font/Recoleta-Bold.woff2') format('woff2'),
+             url('font/Recoleta-Bold.ttf') format('truetype');
+        /* Agrega más formatos de fuente si los tienes disponibles */
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+body {
+        font-family: 'MiFuentePersonalizada', sans-serif;
+        color: #343a40;
+        /* Usa 'MiFuentePersonalizada' como la primera opción y una fuente genérica como fallback */
+}
+
+.main-content {
+    margin-top: 80px;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.mid-content {
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 20px;
+}
+
+.map-card-container {
+    margin-top: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    margin-top: 20px;
+}
+
+.main-content {
+    margin-top: 80px;
+}
+
+.centered-image {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.mid-content {
+    text-align: center;
+    font-size: 15px;
+    color: #343a40;
+}
+
+.card-container {
+    margin-top: 20px;
+}
+
+.map-card-container {
+    margin-top: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gainsboro; /* Añade un borde gris */
+    border-radius: 30px; /* Aplica bordes redondos */
+    overflow: hidden; /* Evita que los bordes redondos sean cortados por el contenido */
+    
+}
+
+.footer-container {
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+.texto-font{
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    font-size: 17px;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    color: #6c757d;
+    justify-content: center;
+}
+.fabri-image{
+    padding: 40px;
+    border: none;
+    border-radius: 20px;
+    size: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.mid-fabric{
+    border: 30px;
+    text-align: center;
+    color: #343a40;
+    font-size: 10px;
+}
