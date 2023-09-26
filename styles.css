@@ -13,7 +13,7 @@
     top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
 }
 .navbar-toggler-icon{
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
 }
 /*
 .navbar-toggler
