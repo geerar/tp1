@@ -23,7 +23,9 @@
     margin-right: 10px; /* Aumenta el margen derecho entre elementos */
     padding: center;
 }
-
+.nav-item{
+    padding: 5px;
+}
 
 .custom-navbar .navbar-nav .nav-link {    
     background-color: gainsboro;
