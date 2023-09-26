@@ -167,6 +167,9 @@ body {
     border-color: none;
     justify-content: center;
 }
+.card-text{
+    background-color: gainsboro;
+}
 .centered-image {
     padding: 40px;
     display: flex;
