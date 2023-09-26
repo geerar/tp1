@@ -12,7 +12,11 @@
     transition: top 0.3s; /* Agregamos una transición para suavizar la animación */
     top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
 }
-
+/*
+.toggler-navbar{
+    .aling-items: center;
+}
+*/
 .custom-navbar .navbar-nav .nav-item {
     text-align: center;
     align-items: center;
