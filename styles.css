@@ -64,7 +64,11 @@ body {
 }
 
 .main-content {
-    margin-top: 80px;
+    margin-top: 40px;
+}
+.main-nosotros {
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .centered-image {
@@ -83,6 +87,7 @@ body {
 }
 
 .map-card-container {
+    padding: 10px;
     margin-top: 20px;
 }
 
@@ -99,13 +104,6 @@ body {
     margin-top: 80px;
 }
 
-.centered-image {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
 
 .mid-content {
     text-align: center;
@@ -115,6 +113,7 @@ body {
 
 .card-container {
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .map-card-container {
@@ -147,6 +146,13 @@ body {
     font-size: 17px;
     justify-content: center;
 }
+.texto-fabric{
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    font-size: 17px;
+    justify-content: center;
+}
 .card-body{
     padding: 10px;
     display: flex;
@@ -155,18 +161,25 @@ body {
     color: #6c757d;
     justify-content: center;
 }
-.fabri-image{
+.centered-image {
     padding: 40px;
-    border: none;
-    border-radius: 20px;
-    size: 30px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
+}
+.fabri-image{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
 }
 .mid-fabric{
-    border: 30px;
+    display: flex;
+    padding: 10px;
     text-align: center;
-    color: #343a40;
+    font-size: 17px;
+    justify-content: center;
 
 }
