@@ -29,6 +29,7 @@
 }
 
 .custom-navbar .navbar-nav .nav-link {    
+    padding: 10px;
     background-color: gainsboro;
     border-color: #6c757d;
     color: #343a40
@@ -62,7 +63,7 @@ body {
 }
 
 .main-content {
-    margin-top: 40px;
+    padding: 20px;
 }
 .main-nosotros {
     margin-top: 20px;
@@ -166,9 +167,6 @@ body {
     background-color: gainsboro;
     border-color: none;
     justify-content: center;
-}
-.card-text{
-    background-color: gainsboro;
 }
 .centered-image {
     padding: 40px;
