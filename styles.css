@@ -12,9 +12,7 @@
     transition: top 0.3s; /* Agregamos una transición para suavizar la animación */
     top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
 }
-.navbar-toggler-icon{
-    background-color: gainsboro;
-}
+
 /*
 .navbar-toggler
     align-items: center;
@@ -68,7 +66,7 @@ body {
 }
 .main-nosotros {
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .centered-image {
@@ -83,7 +81,10 @@ body {
 }
 
 .card-container {
-    margin-top: 20px;
+    border: none; /* Elimina el borde */
+    border-radius: 30px;
+    border-color: none;
+    margin-top: 50px;
 }
 
 .map-card-container {
@@ -92,12 +93,13 @@ body {
 }
 
 .map-container {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
 .footer-container {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .main-content {
@@ -114,6 +116,7 @@ body {
 .card-container {
     padding: 10px;
     margin-bottom: 50px;
+    border: none;
 }
 
 .map-card-container {
@@ -157,8 +160,11 @@ body {
     padding: 10px;
     display: flex;
     text-align: center;
+    border: none;
+    border-radius: 10px;
     font-size: 15px;
-    color: #6c757d;
+    background-color: gainsboro;
+    border-color: none;
     justify-content: center;
 }
 .centered-image {
