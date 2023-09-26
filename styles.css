@@ -13,8 +13,8 @@
     top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
 }
 /*
-.toggler-navbar{
-    .aling-items: center;
+.navbar-toggler
+    align-items: center;
 }
 */
 .custom-navbar .navbar-nav .nav-item {
