@@ -1,5 +1,6 @@
 /* Estilos para la barra de navegación */
 .custom-navbar {
+    align-items: center;
     background: transparent; /* Establece el fondo de la barra de navegación como transparente */
     border: none; /* Elimina el borde */
     border-radius: 0; /* Elimina los bordes redondos */
@@ -8,31 +9,33 @@
     border-radius: 30px;
     
     border-color: none;
-    margin-right: auto;
-    margin-left: auto;
     transition: top 0.3s; /* Agregamos una transición para suavizar la animación */
     top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
 }
 
 .custom-navbar .navbar-nav .nav-item {
+    text-align: center;
+    align-items: center;
     margin-right: 10px; /* Aumenta el margen derecho entre elementos */
     padding: center;
 }
 
 
-.custom-navbar .navbar-nav .nav-link {
+.custom-navbar .navbar-nav .nav-link {    
     background-color: gainsboro;
     border-color: #6c757d;
     color: #343a40
 }
 
 .nav-image.custom-navbar {
-    height: 60px; /* Ajusta la altura de la imagen para que coincida con la barra de navegación */
+        height: 60px; /* Ajusta la altura de la imagen para que coincida con la barra de navegación */
     margin-top: 0; /* Elimina el margen superior para alinear la imagen con la parte superior de la barra de navegación */
 }
 
 
 .navbar-nav{
+   
+    
     position: static;
     }
     @font-face {
@@ -154,5 +157,5 @@ body {
     border: 30px;
     text-align: center;
     color: #343a40;
-    font-size: 10px;
+
 }
