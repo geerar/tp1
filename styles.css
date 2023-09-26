@@ -116,8 +116,9 @@ body {
 
 .card-container {
     padding: 10px;
-    margin-bottom: 50px;
-    border: none;
+    border: none; /* Elimina el borde */
+    border-radius: 30px;
+    border-color: none;
 }
 
 .map-card-container {
