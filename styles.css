@@ -8,7 +8,8 @@ body {
 .custom-navbar {
     position: relative;
     background: #208ed8;
-    height: auto;
+    padding-top: 2.0%;
+    height: 60px;
     border: none;
     top: 0;
     transition: top 0.3s;
@@ -74,18 +75,24 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fffbc4;
-    padding-top: 50px;
+    padding-top: none;
 }
 .prime-row2 {
     display: flex;
     justify-content: center;
     background-color: #ffe0e9;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .prime-row3 {
+    justify-content: center;
+    align-items: center;
+    background-color: #ffadf4;
+    padding-top: 5px;
+}
+.prime-row4 {
     display: flex;
     justify-content: center;
-    background-color: #ffadf4;
+    background-color: #cba5fa;
     padding-top: 10px;
 }
 
@@ -105,4 +112,18 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+.form-group{
+    padding: 2px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.footer-container{
+    width: 100%;
+    background: #208ed8;
+    justify-content: center;
+
 }
