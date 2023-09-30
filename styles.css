@@ -1,193 +1,108 @@
-/* Estilos para la barra de navegación */
-.custom-navbar {
-    align-items: center;
-    background: transparent; /* Establece el fondo de la barra de navegación como transparente */
-    border: none; /* Elimina el borde */
-    border-radius: 0; /* Elimina los bordes redondos */
-    height: auto; /* Ajusta la altura automáticamente según el contenido */
-    height: 70px;
-    border-radius: 30px;
-    
-    border-color: none;
-    transition: top 0.3s; /* Agregamos una transición para suavizar la animación */
-    top: 0; /* Inicialmente, la barra de navegación estará en la parte superior */
-}
-
-/*
-.navbar-toggler
-    align-items: center;
-}
-*/
-.custom-navbar .navbar-nav .nav-item {
-    text-align: center;
-    align-items: center;
-    margin-right: 10px; /* Aumenta el margen derecho entre elementos */
-    padding: center;
-}
-.nav-item{
-    padding: 5px;
-}
-
-.custom-navbar .navbar-nav .nav-link {    
-    padding: 10px;
-    background-color: gainsboro;
-    border-color: #6c757d;
-    color: #343a40
-}
-
-.nav-image.custom-navbar {
-        height: 60px; /* Ajusta la altura de la imagen para que coincida con la barra de navegación */
-    margin-top: 0; /* Elimina el margen superior para alinear la imagen con la parte superior de la barra de navegación */
-}
-
-
-.navbar-nav{
-   
-    
-    position: static;
-    }
-    @font-face {
-        font-family: 'MiFuentePersonalizada'; /* Nombre de la fuente que usarás en tu CSS */
-        src: url('font/Recoleta-Bold.woff') format('woff'),
-             url('font/Recoleta-Bold.woff2') format('woff2'),
-             url('font/Recoleta-Bold.ttf') format('truetype');
-        /* Agrega más formatos de fuente si los tienes disponibles */
-        font-weight: normal;
-        font-style: normal;
-    }
-    
+/* Estilos generales */
 body {
-        font-family: 'MiFuentePersonalizada', sans-serif;
-        color: #343a40;
-        /* Usa 'MiFuentePersonalizada' como la primera opción y una fuente genérica como fallback */
-}
-
-.main-content {
-    padding: 20px;
-}
-.main-nosotros {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.centered-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
-
-.mid-content {
-    text-align: center;
-}
-
-.card-container {
-    border: none; /* Elimina el borde */
-    border-radius: 30px;
-    border-color: none;
-    margin-top: 50px;
-}
-
-.map-card-container {
-    padding: 10px;
-    margin-top: 20px;
-}
-
-.map-container {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-container {
-    margin-top: 10px;
-}
-
-.main-content {
-    margin-top: 80px;
-}
-
-
-.mid-content {
-    text-align: center;
-    font-size: 15px;
+    font-family: 'MiFuentePersonalizada', sans-serif;
     color: #343a40;
 }
 
-.card-container {
+/* Barra de navegación */
+.custom-navbar {
+    position: relative;
+    background: #208ed8;
+    height: auto;
+    border: none;
+    top: 0;
+    transition: top 0.3s;
+}
+
+/* Estilo normal de los botones */
+.navbar-nav .nav-link {
     padding: 10px;
-    border: none; /* Elimina el borde */
-    border-radius: 30px;
-    border-color: none;
+    background-color: #cba5fa;
+    border-color: #6c757d;
+    color: #343a40;
+    transition: background-color 0.3s; /* Agregamos una transición de color */
 }
 
-.map-card-container {
-    margin-top: 20px;
+/* Estilo hover de los botones */
+.navbar-nav .nav-link:hover {
+    background-color: #361b86; /* Color que deseas al pasar el cursor */
+    color: #fff; /* Color de texto al pasar el cursor */
 }
 
-.map-container {
-    display: flex;
-    justify-content: center;
-    border: 1px solid gainsboro; /* Añade un borde gris */
-    border-radius: 30px; /* Aplica bordes redondos */
-    overflow: hidden; /* Evita que los bordes redondos sean cortados por el contenido */
-    
-}
-
-.footer-container {
-    height: 50px;
-    background-color: gainsboro;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-}
-.texto-font{
-    display: flex;
-    padding: 40px;
-    text-align: center;
-    font-size: 17px;
-    justify-content: center;
-}
-.texto-fabric{
-    display: flex;
-    padding: 40px;
-    text-align: center;
-    font-size: 17px;
-    justify-content: center;
-}
-.card-body{
-    padding: 10px;
-    display: flex;
+.nav-item {
+    padding: 5px;
+    font-size: 15px;
     text-align: center;
     border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    background-color: gainsboro;
-    border-color: none;
-    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
 }
-.centered-image {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
-.fabri-image{
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
-.mid-fabric{
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    font-size: 17px;
-    justify-content: center;
 
+.nav-image {
+    height: 60px;
+    padding: 5px;
+}
+
+.navbar-nav {
+    padding: 10px;
+    border-color: #6c757d;
+    color: #343a40;
+}
+
+/* Fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('font/Recoleta-Bold.woff') format('woff'),
+         url('font/Recoleta-Bold.woff2') format('woff2'),
+         url('font/Recoleta-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Imágenes y elementos específicos */
+.fabri-image {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.prime-row {
+    display: flex;
+    justify-content: center;
+    background-color: #fffbc4;
+    padding-top: 50px;
+}
+.prime-row2 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe0e9;
+    padding-top: 10px;
+}
+.prime-row3 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffadf4;
+    padding-top: 10px;
+}
+
+.img-caja {
+    margin-top: 10px;
+    align-items: center;
+    padding: 60px;
+    width: 15cm;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-font {
+    padding: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
 }
