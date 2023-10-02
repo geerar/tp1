@@ -75,25 +75,27 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fffbc4;
-    padding-top: none;
+      
+    
 }
 .prime-row2 {
     display: flex;
     justify-content: center;
     background-color: #ffe0e9;
-    padding-top: 5px;
+    
 }
 .prime-row3 {
     justify-content: center;
     align-items: center;
     background-color: #ffadf4;
-    padding-top: 5px;
+    
 }
 .prime-row4 {
     display: flex;
     justify-content: center;
     background-color: #cba5fa;
-    padding-top: 10px;
+    
+    
 }
 
 .img-caja {
@@ -122,12 +124,16 @@ body {
 
 }
 .footer-container{
-    width: 100%;
+    display: inline-flexbox;   
     background: #208ed8;
     justify-content: center;
-
 }
 .map-container {
     border: 4px solid #222121; /* Color y grosor del contorno */
     border-radius: 10px; /* Radio de los bordes redondos */
+}
+.main-content{
+    display: inline;
+    height: fit-content;
+    width: 100%;
 }
