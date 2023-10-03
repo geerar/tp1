@@ -2,6 +2,7 @@
 body {
     font-family: 'MiFuentePersonalizada', sans-serif;
     color: #343a40;
+    background: none;
 }
 
 /* Barra de navegación */
@@ -75,32 +76,23 @@ body {
 }
 
 .prime-row {
-    display: flex;
     justify-content: center;
     background-color: #fffbc4;
-
-
 }
 
 .prime-row2 {
-    display: flex;
     justify-content: center;
     background-color: #ffe0e9;
-
 }
 
 .prime-row3 {
-    justify-content: center;
-    align-items: center;
+    
     background-color: #ffadf4;
-
 }
 
 .prime-row4 {
-    display: flex;
     justify-content: center;
     background-color: #cba5fa;
-
 
 }
 
@@ -121,21 +113,18 @@ body {
     text-align: center;
 
 }
-
 .footer-container {
     display: inline-flexbox;
     background: #208ed8;
     justify-content: center;
 }
-
 .map-container {
     border: 4px solid #222121;
     /* Color y grosor del contorno */
     border-radius: 10px;
     /* Radio de los bordes redondos */
 }
-
-.main-content {
-    display: inline;
-    
+.iframe{
+    padding: 20px;
 }
+
