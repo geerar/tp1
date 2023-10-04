@@ -114,7 +114,8 @@ body {
 
 }
 .footer-container {
-    display: inline-flexbox;
+    height: fit-content;
+    width: h-100;
     background: #208ed8;
     justify-content: center;
 }
