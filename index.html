@@ -45,14 +45,14 @@
             </div>
         </div>
     </nav>
-    <!-- <h2 class="texto-font d-flex text-center" style="background-color: aliceblue;">Alfajores Haedo</h2> -->
+    
     <div class="row prime-row">
-        <div class="col-xs-12 col-md-7 d-flex align-items-center">
+        <div class="col-12 col-md-7 d-flex align-items-center">
             <div class="img-caja text-center">
                 <img src="Images/bodyalfajor.png" class="img-fluid h-100" alt="">
             </div>
         </div>
-        <div class="col-xs-6 col-md-5 d-flex align-items-center">
+        <div class="col-6 col-md-5 d-flex align-items-center">
             <p class="d-flex align-items-center" style="padding: 20px">Desde hace años, "Alfajores Haedo" se ha
                 convertido en una de las
                 principales
@@ -64,8 +64,8 @@
     </div>
 
     <div class="row prime-row2">
-        <div class="col-xs-12 col-md-8 d-flex align-items-center">
-            <!-- Utilizamos "d-flex" y "align-items-center" para centrar vertical y horizontalmente -->
+        <div class="col-12 col-md-8 d-flex align-items-center">
+            
             <h3 style="padding: 20px;">Nuestra Fabrica</h3>
             <p style="padding: 20px;">Desde hace años, "Alfajores Haedo" se ha convertido en una de las
                 principales
@@ -74,32 +74,32 @@
                 había logrado antes: transformamos el melón en un delicioso alfajor, pero no uno cualquiera,
                 sino el más sabroso, el más frutal, el más cremoso y accesible que puedas probar.</p>
         </div>
-        <div class="col-xs-6 col-md-4 d-flex">
-            <!-- Utilizamos "d-flex" para activar flexbox y "align-items-center" para centrar verticalmente -->
+        <div class="col-6 col-md-4 d-flex">
+            
             <div class="img-caja text-center">
-                <!-- Agregamos "text-center" para centrar horizontalmente el contenido -->
+                
                 <img src="Images/fabrica.jpeg" class="img-fluid h-100" alt="">
             </div>
         </div>
     </div>
     <div class="row prime-row3" id="mapa">
-        <div class="col-xs-12 col-md-6 d-flex align-items-center justify-content-center" ;>
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
             <div class="map-container" id="map-container"
                 style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KHKo06BTd39kdzT0JpIYACTLtXV7Jq0&ehbc=2E312F"
                     width="340px" height="340px"></iframe>
             </div>
         </div>
-        <div class="col-xs-12 col-md-6 d-flex align-items-center justify-content-center">
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
             <h5 class="texto-font text-center">Av. Pres. Perón 3254, B1706 Haedo, Provincia de Buenos Aires +54 11
                 3417-7252.</h5>
         </div>
     </div>
 
     <div class="row prime-row4" id="contacto">
-        <div class="col-xs-12 col-md-4 d-flex align-items-center">
+        <div class="col-12 col-md-4 d-flex align-items-center">
         </div>
-        <div class="col-xs-6 col-md-4 d-flex align-items-c-enter">
+        <div class="col-6 col-md-4 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sd-12">
@@ -119,7 +119,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group">
+                                <div class "form-group">
                                     <div class="col-md-12">
                                         <input id="email" name="email" type="text" placeholder="Correo Electrónico"
                                             class="form-control">
@@ -148,31 +148,60 @@
                                 </div>
                             </fieldset>
                         </form>
-
-
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-xs-6 col-md-4 d-flex align-items-center">
+        <div class="col-6 col-md-4 d-flex align-items-center">
         </div>
     </div>
+    <div class="col-12 col-md-12 d-flex align-items-center">
+        <div class="container w-50 pt-2">
+            <div class="text-center">
+                <h2>Venta de Alfajores</h2>
+            </div>
+            <form class="row g-1 gx-2 formulario" id="formulario">
+                <div class="col-md-6 mb-3">
+                    <label for="ventaTipo" class="form-label">Cantidad de Alfajores</label>
+                    <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="ventaTipo" class="form-label">Tipo de Venta</label>
+                    <select id="ventaTipo" class="form-select">
+                        <option value="minorista">Minorista</option>
+                        <option value="mayorista">Mayorista</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <p class="alert alert-primary" id="totalAPagar">Total a Pagar: $</p>
+                </div>
 
+                <div class="d-grid gap-2 col-6 mx-auto" style="margin-bottom: 10px;">
+                    <button class="btn text-white fs-6 btnBorrar" style="background-color: #96c93e;" type="button" id="borrar">Borrar</button>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto" style="margin-bottom: 10px;">
+                    <button class="btn text-white fs-6 btnResumen" style="background-color: #96c93e;" type="button" id="resumen">Cotizar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
 </body>
-<footer class="text-white text-center py-3 row col-xs-12 col-md-12 footer-container">
+<footer class="text-white text-center py-3 row col-12 col-md-12 footer-container">
     <div class="col-4">
-        <a href=""><img src="Images/facebook.png" alt="" style="width: 50px; margin: auto;"></a>
+        <a href="#"><img src="Images/facebook.png" alt="" style="width: 50px; margin: auto;"></a>
     </div>
     <div class="col-4">
-        <a href=""><img src="Images/insta.png" alt="" style="width: 50px; margin: auto;"></a>
+        <a href="#"><img src="Images/insta.png" alt="" style="width: 50px; margin: auto;"></a>
     </div>
     <div class="col-4">
-        <a href=""><img src="Images/you.png" alt="" style="width: 50px; margin: auto;"></a>
-    </div>        
+        <a href="#"><img src="Images/you.png" alt="" style="width: 50px; margin: auto;"></a>
+    </div>
     <span>© 2023 Gerardo Gasquet X Codo a Codo 4.0</span>
     </div>
 </footer>
+
 </html>
